@@ -1,0 +1,14 @@
+.footer {
+  text-align: center;
+  margin-top: 50px;
+  padding: 20px 0;
+  position: relative;
+
+  &-linea-superior {
+    @include full-width-line($amarillo, 8px);
+  }
+
+  &-linea-inferior {
+    @include full-width-line($footer-linea-inferior, 4px);
+  }
+}

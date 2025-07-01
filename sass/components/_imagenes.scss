@@ -1,0 +1,14 @@
+.principal {
+  @include full-width-img(auto);
+}
+
+.img-seccion {
+  @include full-width-img($img-section-height);
+  margin: $margin-top-section 0;
+}
+
+.icono {
+  height: $icono-size;
+  margin-right: 10px;
+  vertical-align: middle;
+}

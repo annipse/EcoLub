@@ -1,0 +1,12 @@
+@mixin full-width-img($height: auto) {
+  width: 100%;
+  max-width: 100%;
+  height: $height;
+  object-fit: cover;
+}
+
+@mixin full-width-line($color, $height) {
+  background-color: $color;
+  height: $height;
+  width: 100%;
+}
